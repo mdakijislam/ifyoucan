@@ -85,4 +85,6 @@ window.onload = function(argument) {
   }
 
 }
-
+window.addEventListener("click",play);
+function play(){ document.getElementById("peace").play();
+}
